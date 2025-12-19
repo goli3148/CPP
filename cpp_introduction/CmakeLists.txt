@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 4.0)
+project(CPP)
+
+add_executable(${PROJECT_NAME} ../${PATH}/main.cpp)
