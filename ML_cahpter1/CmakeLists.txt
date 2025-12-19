@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 4.0)
+project(MLCHAPTER1)
+
+# use Eigen for this project
+find_package(Eigen3 3.3 REQUIRED NO_MODULE)
+include_directories(${EIGEN3_INCLUDE_DIR})
+# print Eigen3_INCLUDE_DIR
+message(STATUS "Eigen3_INCLUDE_DIR=${EIGEN3_INCLUDE_DIR}")
+
+add_executable(ml_chapter1 matrix_operations.cpp)
+target_link_libraries(ml_chapter1 PRIVATE Eigen3::Eigen)
