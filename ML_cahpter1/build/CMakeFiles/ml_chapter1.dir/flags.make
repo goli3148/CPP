@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /opt/homebrew/include/eigen3
+CXX_INCLUDES = -isystem /opt/homebrew/include/eigen3 -isystem /opt/homebrew/include
 
-CXX_FLAGSarm64 =  -arch arm64
+CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 
-CXX_FLAGS =  -arch arm64
+CXX_FLAGS = -std=gnu++20 -arch arm64
 

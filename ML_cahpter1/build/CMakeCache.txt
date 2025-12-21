@@ -225,6 +225,18 @@ MLCHAPTER1_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MLCHAPTER1_SOURCE_DIR:STATIC=/Users/rustin/Projects/CPP/CPP/ML_cahpter1
 
+//The directory containing a CMake configuration file for TBB.
+TBB_DIR:PATH=/opt/homebrew/lib/cmake/TBB
+
+//The directory containing a CMake configuration file for xsimd.
+xsimd_DIR:PATH=xsimd_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for xtensor.
+xtensor_DIR:PATH=/opt/homebrew/share/cmake/xtensor
+
+//The directory containing a CMake configuration file for xtl.
+xtl_DIR:PATH=/opt/homebrew/share/cmake/xtl
+
 
 ########################
 # INTERNAL cache entries
@@ -371,4 +383,6 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Test arch_native_supported
+arch_native_supported:INTERNAL=1
 

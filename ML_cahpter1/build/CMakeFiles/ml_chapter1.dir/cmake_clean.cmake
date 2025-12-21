@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ml_chapter1.dir/matrix_operations.cpp.o"
-  "CMakeFiles/ml_chapter1.dir/matrix_operations.cpp.o.d"
+  "CMakeFiles/ml_chapter1.dir/eigen_linear_regression.cpp.o"
+  "CMakeFiles/ml_chapter1.dir/eigen_linear_regression.cpp.o.d"
   "ml_chapter1"
   "ml_chapter1.pdb"
 )

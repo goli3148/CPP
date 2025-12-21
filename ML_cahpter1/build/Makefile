@@ -136,29 +136,29 @@ ml_chapter1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/build
 .PHONY : ml_chapter1/fast
 
-matrix_operations.o: matrix_operations.cpp.o
-.PHONY : matrix_operations.o
+eigen_linear_regression.o: eigen_linear_regression.cpp.o
+.PHONY : eigen_linear_regression.o
 
 # target to build an object file
-matrix_operations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/matrix_operations.cpp.o
-.PHONY : matrix_operations.cpp.o
+eigen_linear_regression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/eigen_linear_regression.cpp.o
+.PHONY : eigen_linear_regression.cpp.o
 
-matrix_operations.i: matrix_operations.cpp.i
-.PHONY : matrix_operations.i
+eigen_linear_regression.i: eigen_linear_regression.cpp.i
+.PHONY : eigen_linear_regression.i
 
 # target to preprocess a source file
-matrix_operations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/matrix_operations.cpp.i
-.PHONY : matrix_operations.cpp.i
+eigen_linear_regression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/eigen_linear_regression.cpp.i
+.PHONY : eigen_linear_regression.cpp.i
 
-matrix_operations.s: matrix_operations.cpp.s
-.PHONY : matrix_operations.s
+eigen_linear_regression.s: eigen_linear_regression.cpp.s
+.PHONY : eigen_linear_regression.s
 
 # target to generate assembly for a file
-matrix_operations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/matrix_operations.cpp.s
-.PHONY : matrix_operations.cpp.s
+eigen_linear_regression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml_chapter1.dir/build.make CMakeFiles/ml_chapter1.dir/eigen_linear_regression.cpp.s
+.PHONY : eigen_linear_regression.cpp.s
 
 # Help Target
 help:
@@ -170,9 +170,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ml_chapter1"
-	@echo "... matrix_operations.o"
-	@echo "... matrix_operations.i"
-	@echo "... matrix_operations.s"
+	@echo "... eigen_linear_regression.o"
+	@echo "... eigen_linear_regression.i"
+	@echo "... eigen_linear_regression.s"
 .PHONY : help
 
 

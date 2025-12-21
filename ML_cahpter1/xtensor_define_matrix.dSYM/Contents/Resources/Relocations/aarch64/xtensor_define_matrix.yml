@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rustin/Projects/CPP/CPP/ML_cahpter1/xtensor_define_matrix'
+relocations:     []
+...
