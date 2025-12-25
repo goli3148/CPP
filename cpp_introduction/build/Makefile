@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rustin/Projects/CPP
+CMAKE_SOURCE_DIR = /Users/rustin/Projects/CPP/CPP/cpp_introduction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rustin/Projects/CPP/build
+CMAKE_BINARY_DIR = /Users/rustin/Projects/CPP/CPP/cpp_introduction/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,16 +87,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/build/CMakeFiles /Users/rustin/Projects/CPP/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/CPP/cpp_introduction/build/CMakeFiles /Users/rustin/Projects/CPP/CPP/cpp_introduction/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/CPP/cpp_introduction/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/build/CMakeFiles /Users/rustin/Projects/CPP/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/CPP/cpp_introduction/build/CMakeFiles /Users/rustin/Projects/CPP/CPP/cpp_introduction/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rustin/Projects/CPP/CPP/cpp_introduction/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -136,29 +136,29 @@ CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/build
 .PHONY : CPP/fast
 
-030_matrix/main.o: 030_matrix/main.cpp.o
-.PHONY : 030_matrix/main.o
+031_template/main.o: 031_template/main.cpp.o
+.PHONY : 031_template/main.o
 
 # target to build an object file
-030_matrix/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/030_matrix/main.cpp.o
-.PHONY : 030_matrix/main.cpp.o
+031_template/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/031_template/main.cpp.o
+.PHONY : 031_template/main.cpp.o
 
-030_matrix/main.i: 030_matrix/main.cpp.i
-.PHONY : 030_matrix/main.i
+031_template/main.i: 031_template/main.cpp.i
+.PHONY : 031_template/main.i
 
 # target to preprocess a source file
-030_matrix/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/030_matrix/main.cpp.i
-.PHONY : 030_matrix/main.cpp.i
+031_template/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/031_template/main.cpp.i
+.PHONY : 031_template/main.cpp.i
 
-030_matrix/main.s: 030_matrix/main.cpp.s
-.PHONY : 030_matrix/main.s
+031_template/main.s: 031_template/main.cpp.s
+.PHONY : 031_template/main.s
 
 # target to generate assembly for a file
-030_matrix/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/030_matrix/main.cpp.s
-.PHONY : 030_matrix/main.cpp.s
+031_template/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/031_template/main.cpp.s
+.PHONY : 031_template/main.cpp.s
 
 # Help Target
 help:
@@ -170,9 +170,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP"
-	@echo "... 030_matrix/main.o"
-	@echo "... 030_matrix/main.i"
-	@echo "... 030_matrix/main.s"
+	@echo "... 031_template/main.o"
+	@echo "... 031_template/main.i"
+	@echo "... 031_template/main.s"
 .PHONY : help
 
 

@@ -9,6 +9,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 find_package(xtensor REQUIRED)
 include_directories(${XTENSOR_INCLUDE_DIRS})
 
-add_executable(ml_chapter1 eigen_linear_regression.cpp)
+add_executable(ml_chapter1 read_csv.cpp)
+
 
 target_link_libraries(ml_chapter1 PRIVATE  Eigen3::Eigen xtensor)

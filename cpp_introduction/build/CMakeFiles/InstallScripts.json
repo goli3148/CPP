@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/rustin/Projects/CPP/build/cmake_install.cmake"
+		"/Users/rustin/Projects/CPP/CPP/cpp_introduction/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
